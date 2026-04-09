@@ -12,7 +12,7 @@ const userModel = require("./Model/user");
 const category = require("./foodCategory.json");
 const foodItem = require("./foodData2.json");
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://foodapp-mern-2.onrender.com",
     credentials: true
 }));
 app.use(express.json());
