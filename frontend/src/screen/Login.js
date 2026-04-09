@@ -20,7 +20,7 @@ function Login() {
         e.preventDefault(); // Page reload ko rokein
 
         try {
-            const response = await fetch('https://foodapp-mern-f395.onrender.com/login', {
+            const response = await fetch('hhttps://foodapp-mern-f395.onrender.com/routes/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

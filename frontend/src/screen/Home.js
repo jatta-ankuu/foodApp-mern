@@ -7,7 +7,7 @@ export default function Home() {
   const [foodCategory ,setfoodCategory] = useState([]);
 
   let load = async ()=>{
-    let response = await fetch("https://foodapp-mern-f395.onrender.com/getData",{
+    let response = await fetch("https://foodapp-mern-f395.onrender.com/routes/getData",{
       method:"POST",
       headers:{
         'Content-Type':"application/json",

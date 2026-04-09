@@ -21,7 +21,7 @@ let navigate = useNavigate();
   const handleSubmit = async (e) => {
   e.preventDefault();
   try{
-  const response = await fetch("https://foodapp-mern-f395.onrender.com/create",{
+  const response = await fetch("https://foodapp-mern-f395.onrender.com/routes/create",{
     method:"POST",
     headers:{
       "Content-type":"application/json"
