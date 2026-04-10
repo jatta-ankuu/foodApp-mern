@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const URL =process.env.MONGO_URL;
-const PORT=process.env.PORT;
+const PORT=process.env.PORT||8080;
 const userRoutes = require("./Routes/userRoute");
 const displayData = require("./Routes/displayData");
 const cors = require("cors");
@@ -12,7 +12,7 @@ const userModel = require("./Model/user");
 const category = require("./foodCategory.json");
 const foodItem = require("./foodData2.json");
 app.use(cors({
-    origin:"https://foodapp-mern-2.onrender.com",
+    origin:"http://localhost:3000",
     credentials: true
 }));
 app.use(express.json());
