@@ -7,7 +7,7 @@ export default function Home() {
   const [foodCategory ,setfoodCategory] = useState([]);
 
   let load = async ()=>{
-    let response = await fetch("http://localhost:8080/routes/getData",{
+    let response = await fetch("https://malik-food.onrender.com/routes/getData",{
       method:"POST",
       headers:{
         'Content-Type':"application/json",

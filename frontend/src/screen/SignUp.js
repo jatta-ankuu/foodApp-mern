@@ -21,7 +21,7 @@ let navigate = useNavigate();
   const handleSubmit = async (e) => {
   e.preventDefault();
   try{
-  const response = await fetch("http://localhost:8080/routes/create",{
+  const response = await fetch("https://malik-food.onrender.com/routes/create",{
     method:"POST",
     headers:{
       "Content-type":"application/json"

@@ -20,7 +20,7 @@ function Login() {
         e.preventDefault(); // Page reload ko rokein
 
         try {
-            const response = await fetch('http://localhost:8080/routes/login', {
+            const response = await fetch('https://malik-food.onrender.com/routes/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
