@@ -80,8 +80,8 @@ function Login() {
                                 onChange={handleChange}
                             />
                         </div>
-                        <button type="submit" className="btn btn-success fs-5 mt-3">Log in</button> &nbsp;&nbsp; &nbsp;&nbsp;
-                        <Link to="/signup" className="btn btn-danger fs-5 mt-3">
+                        <button type="submit" className="btn btn-success w-100 mb-2">Log in</button> &nbsp;&nbsp; &nbsp;&nbsp;
+                        <Link to="/signup" className="btn btn-danger w-100">
   Rejister User
 </Link>
                     </form>
